@@ -4,12 +4,11 @@ import numpy as np
 
 #  Load Saved Files
 
-with open("models/house_price_model.pkl", "rb") as file:
+with open("house_price_model.pkl", "rb") as file:
     model = pickle.load(file)
 
-with open("models/scaler.pkl", "rb") as file:
+with open("scaler.pkl", "rb") as file:
     scaler = pickle.load(file)
-
 
 # Create Page Title
 
